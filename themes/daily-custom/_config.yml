@@ -6,7 +6,7 @@ favicon: https://hexo.io/icon/favicon-96x96.png
 # avatar: images/avatar.png
 # banner_small: images/banner-small.png
 # banner_large: images/banner-large.png
-logo: https://hexo.io/logo.svg
+logo: images/sososimsim-logo.png
 
 # disqus
 #disqus_shortname: drakeleung
@@ -44,7 +44,7 @@ social:
 #   title: 标题
 #   content: 内容
 widget:
-  title: 
-  content: 
+  title:
+  content:
 
-footer: 
+footer:
