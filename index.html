@@ -51,6 +51,12 @@ main {
   width: 100%;
   height: 100%;
   background-color: #d6dade;
+  background: linear-gradient(300deg, #9227fd, #f55647, #36cddb);
+  background-size: 600% 600%;
+
+  -webkit-animation: changingGradation 30s ease infinite;
+  -moz-animation: changingGradation 30s ease infinite;
+  animation: changingGradation 30s ease infinite;
 }
 
 #progress-message {
@@ -60,12 +66,28 @@ main {
   line-height: 20px;
   font-size: 45px;
   text-align: center;
-  color: #402ff8;
+  color: #d9eadb;
   margin: auto;
   top:0;
   left:0;
   right:0;
   bottom:0;
+}
+
+@-webkit-keyframes changingGradation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes changingGradation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes changingGradation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
   </style>
 </head>
